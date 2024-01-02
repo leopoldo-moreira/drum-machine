@@ -1,0 +1,41 @@
+.mainContainer{    
+    width: 100px;
+    margin: 1em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.mainContainer span{
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;    
+}
+
+.background{
+    width: 55px;
+    background-color: black;
+    padding: 3px 3px;
+}
+
+.button{
+    background-color: blue;
+    width: 23px;
+    height: 19px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.right{
+    float: right;    
+}
+
+.left{
+    float: left;
+}
+
+.powerOff{
+    background-color: red;
+}

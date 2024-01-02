@@ -1,0 +1,8 @@
+.padContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);   
+    gap: .5em; 
+    row-gap: .5em;
+    align-content: center;
+    margin-right: 3em;
+}

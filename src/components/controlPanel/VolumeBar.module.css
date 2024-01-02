@@ -1,0 +1,22 @@
+.bar input{
+    width: 275px;
+    cursor: pointer;
+    appearance: none;
+    height: 5px;
+    background-color: #424242;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);    
+}
+
+.bar input:focus{
+    outline: none;
+}
+
+.bar input[type="range"]::-webkit-slider-thumb {
+    box-sizing: border-box;
+    width: 7px;
+    height: 20px;    
+    background: blue; /* Cor de fundo do polegar */
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-left: 2px;        
+  }

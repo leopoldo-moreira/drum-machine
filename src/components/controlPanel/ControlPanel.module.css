@@ -1,0 +1,7 @@
+.controlPanel{
+    display: flex;
+    flex-direction: column;    
+    margin: auto auto;
+    width: 100%;    
+}
+

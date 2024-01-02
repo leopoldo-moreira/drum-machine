@@ -1,0 +1,27 @@
+.padOn, .padOff{
+    margin-top: 10px;
+    display: flex;
+    width: 100px;
+    height: 80px;    
+    margin: 0;    
+    border-radius: 5px;
+    background-color: #808080;
+    box-shadow: black 3px 3px 5px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    transition: .1s;
+}
+
+.padOn:active, .active{
+    background-color: orange;
+    height: 77px;
+    color: white;
+}
+
+.padOff:active, .powerOff{
+    box-shadow: grey 0px 3px;
+    height: 77px;
+}
